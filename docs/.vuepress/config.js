@@ -13,6 +13,7 @@ module.exports = {
       collapsable: true,
       children: [
         'accessibility-a11y',
+        'comments',
         'headings',
         'lists',
       ]
