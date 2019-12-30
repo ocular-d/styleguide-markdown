@@ -124,6 +124,37 @@ Note: The `·` character represents a whitespace character.
 ·# One
 ```
 
+## No Duplicate
+
+Avoid using two or more headers with the same content in the same markdown file.
+Many Markdown renderer generate IDs for headers based on the header content.
+
+> remark-lint: [remark-lint-no-duplicate-headings](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings) and [remark-lint-no-duplicate-headings-in-section](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section)
+
+**:thumbsup: Correct** code for this rule:
+
+```markdown
+# One
+
+## One One
+
+# Two
+
+## Two Two
+```
+
+**:thumbsdown: Incorrect** code for this rule:
+
+```markdown
+# One
+
+## Two
+
+# Three
+
+## One
+```
+
 ## Sentences case
 
 Use an upper case letter as the first letter of a header, unless it is a word that always starts with lowercase letters,
