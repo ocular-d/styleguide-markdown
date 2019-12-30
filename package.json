@@ -1,8 +1,22 @@
 {
+  "name": "styleguide-markdown",
+  "version": "0.0.1",
+  "description": "Markdown Style Guide",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocular-d/styleguide-markdown.git"
+  },
+  "keywords": ["markdown", "documentation", "docs", "api"],
+  "author": "ocular-d",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ocuar-d/styleguide-markdown/issues"
+  },
+  "homepage": "https://ocular-d.github.io/styleguide-markdown/",
   "devDependencies": {
     "vuepress": "^1.2.0"
   }
