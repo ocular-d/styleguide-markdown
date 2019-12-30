@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Markdown Styleguide',
   description: 'One guide to rule them all',
+  base: "/styleguide-markdown/",
   themeConfig: {
     lastUpdated: 'Last Updated',
     repo: 'ocular-d/styleguide-markdown',
@@ -12,6 +13,7 @@ module.exports = {
       collapsable: true,
       children: [
         'accessibility-a11y',
+        'headings',
         'lists',
       ]
     }
