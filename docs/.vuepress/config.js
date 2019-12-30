@@ -2,6 +2,9 @@ module.exports = {
   title: 'Markdown Styleguide',
   description: 'One guide to rule them all',
   base: "/styleguide-markdown/",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated',
     repo: 'ocular-d/styleguide-markdown',
