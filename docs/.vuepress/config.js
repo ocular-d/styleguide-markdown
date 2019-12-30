@@ -16,6 +16,7 @@ module.exports = {
         'comments',
         'blockquotes',
         'headings',
+        'horizontal-rules',
         'lists',
       ]
     }
