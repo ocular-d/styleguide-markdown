@@ -13,23 +13,23 @@ Use dashes `-` marker.
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- Winter
-- Snow
-- Frost
+- One
+- Two
+- Three
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-* Winter
-* Snow
-* Frost
+* One
+* Two
+* Three
 ```
 
 ```markdown
-+ Winter
-+ Snow
-+ Frost
++ One
++ Two
++ Three
 ```
 
 ## Ordered marker
@@ -49,7 +49,7 @@ The only disadvantage is that references break when a new list item is added.
 This problem can be reduced by
 
 - Using an unordered list until the final structure and layout has been determined.
-- Keeping references close to the list to avoind forgetting to update them.
+- Keeping references close to the list to avoid forgetting to update them.
 - Always specify an specific version of the markdown file when referring from an external document.
 
 > remark-lint: [ordered-list-marker-style](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-unordered-list-marker-style "Link to remarkjs docs")
@@ -60,33 +60,33 @@ and [remark-lint-ordered-list-marker-value](https://github.com/remarkjs/remark-l
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-1. Winter
-2. Snow
-  2.1 Snowflakes
-3. Frost
+1. One
+2. Two
+  2.1 Two dot one
+3. Three
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-1. Winter
-1. Snow
-  1.1 Snowflakes
-1. Frost
+1. One
+1. Two
+  1.1 Two dot one
+1. Three
 ```
 
 ```markdown
-1) Winter
-1) Snow
-  1.1) Snowflakes
-1) Frost
+1) One
+1) Two
+  1.1) Two dot one
+1) Three
 ```
 
 ```markdown
-1) Winter
-2) Snow
-  2.1) Snowflakes
-3) Frost
+1) One
+2) Two
+  2.1) Two dot one
+3) Three
 ```
 
 ## No content before
@@ -98,17 +98,17 @@ Make sure that there are no other characters (including whitespaces) in front of
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- Winter
-- Snow
-  - Snowflakes
-- Frost
+- One
+- Two
+  - Two dot one
+- Three
 ```
 
 ```markdown
-1. Winter
-2. Snow
-  2.1 Snowflakes
-3. Frost
+1. One
+2. Two
+  2.1 Two dot one
+3. Three
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
@@ -118,19 +118,19 @@ The `·` character represents a whitespace character.
 :::
 
 ```markdown
-x- Winter
- - Snow
-  .- Snowflakes
-"- Frost
-·- Frost
+x- One
+ - Two
+  .- Two dot one
+"- Three
+·- Four
 ```
 
 ```markdown
-x1. Winter
- 2. Snow
-  .2.1 Snowflakes
-"3. Frost
-·3. Frost
+x1. One
+ 2. Two
+  .2.1 Two dot one
+"3. Three
+·4. Four
 ```
 
 ## Continuous indentation
@@ -144,82 +144,33 @@ and [list-item-indent](https://github.com/remarkjs/remark-lint/tree/master/packa
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- Winter
-  - Snow
-- Snowflakes
-  - Frost
-- Arctic
-  - Sparkling
-    - Frozen
+- One
+  - One dot one
+- Two
+  - Two dot one
+- Three
+  - Three dot one
 ```
-
-```markdown
-- Winter
-  Sparkling and frozen!
-- Snowflakes
-  Made of snow!
-- Snow
-  Falls down!
-  Arctic beauty
-```
-
-`````markdown
-- Winter
-  ```js
-  import React, { PureComponent } from "react";
-  class Frost extends PureComponent {
-    // ...
-  }
-  export default Frost;
-  ```
-   Snow
-    ```java
-    import winter.Snow;
-    String[] flakes = Snow.getFlakes();
-    ```
-    - Frost
-      > Sparkling and frozen!
-`````
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-- Winter
-    - Snow
-- Snowflakes
- - Frost
-- Arctic
-   - Sparkling
-           - Frozen
+- One
+    - One dot one
+- Two
+ - Two dot one
+- Three
+   - Three dot one
 ```
 
 ```markdown
-- Winter
-    Sparkling and frozen!
-- Snowflakes
- Made of snow!
-- Snow
-   Falls down!
-       Arctic beauty
+- One
+    One dot one!
+- Two
+ Two dot one!
+- Three
+   Three dot one!
 ```
-
-`````markdown
-- Winter
-        ```js
-        import React, { PureComponent } from "react";
-        class Frost extends PureComponent {
-          // ...
-        }
-        export default Frost;
-        ```
-   - Snow
-    ```java
-    import static winter.Snow;
-    String[] flakes = Snow.getFlakes();
-    ```
- - Frost
-   > Sparkling and frozen!
-`````
 
 ## Empty lines
 
@@ -230,22 +181,22 @@ A list must not contain blank lines between each list item.
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- Winter
-- Snow
-  - Snowflakes
-- Frost
+- One
+- Two
+  - Two dot one
+- Three
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-- Winter
+- One
 
-- Snow
+- Two
 
-  - Snowflakes
+  - Two dot one
 
-- Frost
+- Three
 ```
 
 ## Empty lines before and after
@@ -255,38 +206,38 @@ Always surround lists by a single empty line except at the beginning of the file
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-... snowflakes are falling.
+... a line with text.
 
-- Winter
-- Snow
-  - Snowflakes
-- Frost
+- One
+- Two
+  - Two dot one
+- Three
 
-Sparkling and frozen...
+Another line with text...
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-... snowflakes are falling.
-- Winter
-- Snow
-  - Snowflakes
-- Frost
-Sparkling and frozen...
+... a line wit text.
+- One
+- Two
+  - Two dot one
+- Three
+Another line with text...
 ```
 
 ```markdown
-... snowflakes are falling.
+... a line with text.
 
 
-- Winter
-- Snow
-  - Snowflakes
-- Frost
+- One
+- Two
+  - Two dot one
+- Three
 
 
-Sparkling and frozen...
+Another line with text...
 ```
 
 ## Letter case
@@ -298,21 +249,10 @@ When the list items are meant to be imaginary concatenated with the sentence tha
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-The winter has
+This is awesome
 
-- Many snowflakes that are falling down.
-- Sparkling and frozen elements!
-- A lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
-```
-
-Enumerations or context-dependent:
-
-```markdown
-The winter has
-
-- **Snowflakes** - They are falling down.
-- **Elements** - They are sparkling and frozen!
-- **Beautiful animals** - e.g a lot of snowy owls, arctic foxes, and grizzly bears.
+- The summer is hot.
+- A lot of beautiful human beings.
 ```
 
 Proper names or code snippets:
@@ -325,24 +265,6 @@ A list for
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
-
-```markdown
-The winter has
-
-- many snowflakes that are falling down.
-- sparkling and frozen elements!
-- a lot of beautiful animals like snowy owls, arctic foxes, and grizzly bears.
-```
-
-Enumerations or context-dependent:
-
-```markdown
-The winter has
-
-- **snowflakes** - They are falling down.
-- **elements** - They are sparkling and frozen!
-- **beautiful animals** - Like e.g a lot of snowy owls, arctic foxes, and grizzly bears.
-```
 
 Proper names or code snippets:
 
@@ -361,9 +283,9 @@ Omit the punctuation for single words.
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- Winter
-- Snow
-- Frost
+- One
+- Two
+- Three
 ```
 
 ```markdown
@@ -377,9 +299,9 @@ The Winter is
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-- Winter.
-- Snow.
-- Frost.
+- One.
+- Two.
+- Three.
 ```
 
 ```markdown
@@ -399,21 +321,21 @@ Use `x` for ticked checkboxes and a single space ` ` for non ticked checkboxes.
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-- [x] Winter
-- [ ] Snow
-- [x] Frost
+- [x] One
+- [ ] Two
+- [x] Three
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-- [!] Winter
-- [~] Snow
-- [»] Frost
+- [!] One
+- [~] Two
+- [»] Three
 ```
 
 ```markdown
-* [] Winter
-* [  ] Snow
-* [     ] Frost
+* [] One
+* [  ] Two
+* [     ] Three
 ```

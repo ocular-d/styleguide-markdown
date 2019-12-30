@@ -11,13 +11,13 @@ Add an alternative text for images.
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
-![snowflake icon](https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png)
+![Guillotina icon](https://guillotina.readthedocs.io/en/latest/_static/img/logo.svg)
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
-![][snowflake]
+![][Guillotina]
 
-[snowflake]: https://raw.githubusercontent.com/arcticicestudio/styleguide-markdown/develop/src/assets/snowflake.png
+[Guillotina]: https://guillotina.readthedocs.io/en/latest/_static/img/logo.svg
 ````
