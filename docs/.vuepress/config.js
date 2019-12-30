@@ -18,6 +18,7 @@ module.exports = {
         'accessibility-a11y',
         'comments',
         'blockquotes',
+        'emphasis',
         'headings',
         'horizontal-rules',
         'lists',
