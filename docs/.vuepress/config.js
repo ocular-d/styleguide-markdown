@@ -21,6 +21,7 @@ module.exports = {
         'headings',
         'horizontal-rules',
         'lists',
+        'naming-conventions'
       ]
     }
   ]
