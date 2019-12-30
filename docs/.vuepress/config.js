@@ -14,6 +14,7 @@ module.exports = {
       children: [
         'accessibility-a11y',
         'comments',
+        'blockquotes',
         'headings',
         'lists',
       ]
