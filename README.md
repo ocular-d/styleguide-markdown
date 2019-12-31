@@ -25,6 +25,8 @@
 ## Table of Contents
 
 - [About the Project](#about)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
