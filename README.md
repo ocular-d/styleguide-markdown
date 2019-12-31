@@ -36,6 +36,36 @@ inspired and based the [Arctic Ice Studio Markdown Guide](https://arcticicestudi
 
 It is used to showcase *Docs As Code* and *DocOps*.
 
+## Dependencies
+
+- [Yarn](https://yarnpkg.com/en/)
+
+## Getting Started
+
+Clone the repository
+
+```md
+git clone https://github.com/ocular-d/styleguide-markdown
+```
+
+Change into the directory
+
+```md
+cd styleguide-markdown
+```
+
+Install with Yarn
+
+```md
+yarn install
+```
+
+Build and browse locally (dev build)
+
+```md
+yarn docs:dev
+```
+
 ## Contributing
 
 We are a community effort, and everybody is most welcome to participate!
@@ -49,4 +79,3 @@ Be it filing bugs, formulating enhancements, creating pull requests, or any othe
 ## Credits
 
 - [Arctic Ice Studio Markdown Guide](https://arcticicestudio.github.io/styleguide-markdown/)
-
