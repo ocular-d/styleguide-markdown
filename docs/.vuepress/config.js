@@ -23,7 +23,8 @@ module.exports = {
         'horizontal-rules',
         'lists',
         'naming-conventions',
-        'paragraphs'
+        'paragraphs',
+        'strings'
       ]
     }
   ]
