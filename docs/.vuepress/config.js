@@ -22,6 +22,7 @@ module.exports = {
         'emphasis',
         'headings',
         'horizontal-rules',
+        'links',
         'lists',
         'naming-conventions',
         'paragraphs',
