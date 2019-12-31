@@ -13,7 +13,7 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     sidebar: [{
       title: 'Guidelines',
-      collapsable: true,
+      collapsable: false,
       children: [
         'accessibility-a11y',
         'code',
