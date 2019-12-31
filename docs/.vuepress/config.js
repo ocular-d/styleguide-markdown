@@ -25,7 +25,8 @@ module.exports = {
         'naming-conventions',
         'paragraphs',
         'strings',
-        'tables'
+        'tables',
+        'whitespace'
       ]
     }
   ]

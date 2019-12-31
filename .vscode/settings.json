@@ -6,6 +6,7 @@
         "remarkjs",
         "setext",
         "thumbsdown",
-        "thumbsup"
+        "thumbsup",
+        "volto"
     ]
 }
