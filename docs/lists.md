@@ -136,9 +136,12 @@ x1. One
 ## Continuous indentation
 
 Use two (2) whitespaces for continuous indentation of nested items and their content.
+
 <!--lint disable-->
+
 > remark-lint: [list-item-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-content-indent "Link to remarkjs docs")
 and [list-item-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-indent "Link to remarkjs docs")
+
 <!--lint enable-->
 
 **:thumbsup: Correct** code for this rule:
@@ -274,6 +277,7 @@ A list for
 - react
 - `string`
 ```
+
 ## Punctuation after items
 
 Use punctuation at the end of a list item when it contains a sentence that starts with an upper case letter or multiple sentences or paragraphs.

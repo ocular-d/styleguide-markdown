@@ -3,9 +3,13 @@
 ::: tip Key Point
 :bulb: Always use short and understandable headings.
 :::
+
 <!-- vale off -->
+
 ## ATX Style
+
 <!-- vale on -->
+
 Always use [atx-style](http://www.aaronsw.com/2002/atx/intro "Link explaining what atx-style is") headings (not closed) instead of [Setext](http://docutils.sourceforge.net/mirror/setext.html "Link explaining what Setext is").
 
 The level can be seen and the number of characters must not match in both lines.
@@ -129,7 +133,8 @@ Note: The `·` character represents a whitespace character.
 Avoid using two or more headers with the same content in the same markdown file.
 Many Markdown renderer generate IDs for headers based on the header content.
 
-> remark-lint: [remark-lint-no-duplicate-headings](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings) and [remark-lint-no-duplicate-headings-in-section](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section)
+> remark-lint: [remark-lint-no-duplicate-headings](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings)
+> and [remark-lint-no-duplicate-headings-in-section](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-duplicate-headings-in-section)
 
 **:thumbsup: Correct** code for this rule:
 

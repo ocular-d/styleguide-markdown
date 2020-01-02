@@ -25,9 +25,13 @@ Use [inline](https://spec.commonmark.org/0.29/#inline-link "Link to specificatio
 
 [plone-info]: https://plone.org
 ```
+
 <!-- vale off -->
+
 ## No ID inner spacing
+
 <!-- vale on -->
+
 Do not use inner spaces within link IDs.
 
 > remark-lint: [no-inline-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-inline-padding "Link to remarkjs docs")

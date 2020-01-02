@@ -5,7 +5,9 @@
 :::
 
 ## Blocks
+
 <!--lint disable-->
+
 Avoid indentation based code blocks, use [fenced code blocks](https://spec.commonmark.org/0.29/#fenced-code-blocks "Link to CommonMark spec") for multi line code.
 
 This prevents malformed rendered output due to wrong indentation errors, increases the readability and allows the usage of [language syntax highlighting](https://v1.vuepress.vuejs.org/guide/markdown.html#syntax-highlighting-in-code-blocks "Link to vuepress docs about syntax highlighting").

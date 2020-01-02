@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+<!--lint disable no-undefined-references>
+
 ## [0.0.2] - 2020-01-02
 
 - Add missing link descriptions
@@ -11,3 +13,5 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Initial version
+
+<!--lint enable no-undefined-references>

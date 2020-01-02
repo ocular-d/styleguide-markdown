@@ -127,9 +127,12 @@ Surround the content of headers and cells with at least one (1) single whitespac
 
 The delimiter row must only consist of cells whose only content are hyphens (`-`) surrounded by a single whitespace,
 and optionally, a leading or trailing colon (`:`), or both, to indicate left, right, or center alignment respectively.
+
 <!--lint disable-->
+
 > remark-lint: [table-cell-padding](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-cell-padding "Link to remarkjs docs")
 and [table-pipe-alignment](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-table-pipe-alignment "Link to remarkjs docs")
+
 <!--lint enable-->
 
 **:thumbsup: Correct** code for this rule:
