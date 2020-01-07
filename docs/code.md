@@ -207,6 +207,6 @@ or terminal command quotations that contain sample output when the being execute
 Don't use it for
 
 - **Project or proper names** - for example [React](https://reactjs.org "Link to reactjs"), [GCC](https://gcc.gnu.org "Link to GCC"), [Node.js](https://nodejs.org "Link to nodejs"), [Golang](https://golang.org "Link to Golang") or [Rust](https://www.rust-lang.org "Link to rust")
-- **Libraries** - for example [libc](https://crates.io/crates/libc "Link to libc")
+- **Libraries** - for example [libc](https://crates.io/crates/libc "Link to libc rust crate")
 - **Packages and modules** - for example [react-dom](https://www.npmjs.com/package/react-dom "Link to react-dom")
 <!--lint enable-->
