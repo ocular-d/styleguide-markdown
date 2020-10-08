@@ -203,6 +203,7 @@ or terminal command quotations that contain sample output when the being execute
 - **Paths** - `/etc/hosts`, `src/main/java/com/arcticicestudio/icecore/hashids/Hashids.java`
 - **Version numbers** - `0.2.0`, `1.8.6-frost.2`
 - **Code for example reserved keywords, builtins and operators** - `this`, `true`/`false`, `String`, `=>`
+- **HTTP calls** - `GET`, `POST`, `PATCH`
 
 Don't use it for
 
