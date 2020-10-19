@@ -116,6 +116,40 @@ You can use it for small and huge sites! It is the base
 for many beautiful sites.
 ```
 
+## Semantic Line Breaks
+
+[Breaking lines semantically](https://sembr.org/ "Link to a website about semantic line breaks") consists in writing one sentence or clause per line.
+
+This works especially well for conventional markup languages such as markdown, where consecutive lines are joined with a space, because it does not alter the final output.
+
+At the same time, breaking lines semantically is useful in version control systems that use diffing, because it makes it easier for reviewers to see what changes were made to content.
+
+If you also enabled some vertical rules at specific text lenghts for your code editor, breaking lines semantically will also enabloe you to see on the spot how long your sentences are.
+
+Let's analyze the sentence *"All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood."*
+All examples below will render the sentence as one paragraph, but only the correct examples below will make changes to the sentence easier to review using diff and easier to track by the version control system.
+
+**:thumbsup: Correct** code for this rule:
+
+```markdown
+All human beings are born free and equal in dignity and rights.
+They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+```
+
+Even Better:
+
+```markdown
+All human beings are born free and equal in dignity and rights.
+They are endowed with reason and conscience
+and should act towards one another in a spirit of brotherhood.
+```
+
+**:thumbsdown: Incorrect** code for this rule:
+
+```markdown
+All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+```
+
 ## Trailing
 
 Do not use trailing whitespace to generate a line break, use flowing text style or a blank line to create a new paragraph.
