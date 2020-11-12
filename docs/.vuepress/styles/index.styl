@@ -1,0 +1,55 @@
+/* Custom Blocks and Admonitions */
+
+.custom-block
+  border-radius: 0.4rem
+  color $textColor
+  .custom-block-title
+    font-weight 600
+    margin-bottom -0.4rem
+  &.tip
+    background-color $boxBgColor
+    border-color $tipGrey
+  &.warning
+    background-color $boxBgColor
+    border-color $warningPink
+    color $textColor
+    .custom-block-title
+      color $textColor
+    a
+      color $ocean
+  &.danger
+    background-color $boxBgColor
+    border-color $gazpacho
+    color $textColor
+    .custom-block-title
+      color $textColor
+    a
+      color $ocean
+
+/* end of Custom Blocks and Admonitions */
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.6rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e3e8ee;
+}
+
+div[class*="language-"] .highlight-lines .highlighted {
+    background-color: #023A7C;
+}
+
+
+div[class*="language-"].line-numbers-mode .highlight-lines .highlighted:before {
+  background-color: #023A7C;
+}
+
+div[class*="language-"].line-numbers-mode::after {
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
