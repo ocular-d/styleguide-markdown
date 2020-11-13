@@ -11,6 +11,9 @@ module.exports = {
     docsDir: 'docs',
     editLinks: false,
     editLinkText: 'Help us improve this page!',
+    nav: [
+      { text: 'Content Style Guide', link: 'https://ocular-d.github.io/styleguide-editorial/' }
+    ],
     sidebar: [{
       title: 'Guidelines',
       collapsable: false,
