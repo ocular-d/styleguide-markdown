@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Markdown Styleguide',
+  title: 'Markdown Style Guide',
   description: 'One guide to rule them all',
   base: "/styleguide-markdown/",
   head: [
