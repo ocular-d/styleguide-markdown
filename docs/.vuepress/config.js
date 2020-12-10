@@ -12,7 +12,7 @@ module.exports = {
     editLinks: false,
     editLinkText: 'Help us improve this page!',
     nav: [
-      { text: 'Content Style Guide', link: 'https://ocular-d.github.io/styleguide-editorial/' }
+      { text: 'Content Style Guide', link: 'https://editorial.ocular-d.tech//' }
     ],
     sidebar: [{
       title: 'Guidelines',
