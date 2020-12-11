@@ -1,8 +1,18 @@
-# Blockquotes
+---
+title: Blockquotes
+description: How to use blockquotes.
+meta:
+  - name: "og:description"
+    content: Blockquotes
+  - name: keywords
+    content: Blockquotes
+tags:
+  - Blockquotes
+---
 
-::: tip Key Point
-:bulb: How to use blockquotes.
-:::
+<Header/>
+
+---
 
 ## Indentation
 
