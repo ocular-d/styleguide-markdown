@@ -95,14 +95,14 @@ To protect the user from unintentional run the copied code due to a newline (int
 
 **:thumbsup: Correct** code for this rule:
 
-```shell
+```bash
 npx run docs:generate -- --template=plone --description="Plone is awesome" \
 --elements="volto" --scale=20
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
-```shell
+```bash
 npx run docs:generate -- --template=plone --description="Plone is awesome" --elements="volto" --scale=20
 ```
 
@@ -117,18 +117,18 @@ To clarify the output of a command use for example a comment on the next line or
 
 **:thumbsup: Correct** code for this rule:
 
-```shell
+```bash
 echo "Plone is awesome!"
 ```
 
-```shell
+```bash
 winter="Plone is awesome!"
 echo $winter # Plone is awesome!
 ```
 
 **:thumbsdown: Incorrect** code for this rule:
 
-```shell
+```bash
 $ echo "Plone is awesome!"
 ```
 
