@@ -1,10 +1,21 @@
-# Code
+---
+title: Code
+description: Guide for code and code blocks.
+meta:
+  - name: "og:description"
+    content: Code
+  - name: keywords
+    content: Code code-blocks
+tags:
+  - Code
+  - code-blocks
+---
 
-::: tip Key Point
-:bulb: Rules for code and code blocks.
-:::
+<Header/>
 
-## Blocks
+---
+
+## Code Blocks
 
 <!--lint disable-->
 

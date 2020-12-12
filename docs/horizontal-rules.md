@@ -1,6 +1,24 @@
+---
+title: Horizontal Rules
+description: Horizontal rules can be used to separate content.
+meta:
+  - name: "og:description"
+    content: Horizontal Rules
+  - name: keywords
+    content: Horizontal Rules
+tags:
+  - Horizontal
+  - Sections
+  - Headers
+---
+
+<Header/>
+
+---
+
 # Horizontal Rules
 
-::: tip Key Point
+::: tip When to use
 :bulb: Horizontal rules can be used to separate sections when headers are not applicable or
 to separate base document elements like a header, body and footer.
 :::

@@ -1,8 +1,19 @@
-# Whitespace
+---
+title: Whitespace
+description: Guide about (white)spaces.
+meta:
+  - name: "og:description"
+    content: Guide about (whitespaces)
+  - name: keywords
+    content: Whitespace
+tags:
+  - Whitespace
+  - Space
+---
 
-::: tip Key Point
-:bulb: Guide about whitespaces.
-:::
+<Header/>
+
+---
 
 ## Indentation character
 

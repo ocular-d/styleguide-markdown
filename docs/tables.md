@@ -1,16 +1,28 @@
-# Tables
+---
+title: Tables
+description: Prefer lists and only use tables for small, non-complex and single line content.
+meta:
+  - name: "og:description"
+    content: Only use tables for small, non-complex and single line content
+  - name: keywords
+    content: Tables
+tags:
+  - Tables
+---
 
-::: tip Key Point
-:bulb: Prefer lists and only use tables for small, non-complex and single line content.
-:::
+<Header/>
 
-Complex, large tables are difficult to read in source and most importantly, a pain to modify, indent and also read later for example when using
+---
+
+Complex, large tables are difficult to read in source and most importantly, a pain to modify,
+indent and also read later for example when using
 
 - Line breaks within rows
 - Long sentences that must be wrapped
 - Inline links with long URLs
 
-Lists and subheadings usually suffice to present the same information in a slightly less compact, though much more edit-friendly and more elegant way.
+Lists and subheadings usually suffice to present the same information in a slightly less compact,
+though much more edit-friendly and more elegant way.
 
 **:thumbsup: Correct** code for this rule:
 

@@ -1,8 +1,19 @@
-# Links
+---
+title: Links
+description: Always use inline links.
+meta:
+  - name: "og:description"
+    content: How to use links
+  - name: keywords
+    content: Links
+tags:
+  - links
+  - inline
+---
 
-::: tip Key Point
-:bulb: Always use inline links.
-:::
+<Header/>
+
+---
 
 Use [inline](https://spec.commonmark.org/0.29/#inline-link "Link to specification") links instead of [reference](https://spec.commonmark.org/0.29/#reference-link "Link to specification").
 

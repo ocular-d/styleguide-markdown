@@ -1,8 +1,18 @@
-# Comments
+---
+title: Comments
+description: How to add hidden, non-rendered comments.
+meta:
+  - name: "og:description"
+    content: Comments
+  - name: keywords
+    content: Comments
+tags:
+  - Comments
+---
 
-::: tip Key Point
-:bulb: How to add hidden, non-rendered comments.
-:::
+<Header/>
+
+---
 
 <!-- vale off -->
 

@@ -1,8 +1,19 @@
-# Naming conventions
+---
+title: Naming conventions
+description: How to name files and usage of file extension.
+meta:
+  - name: "og:description"
+    content: How to name files and usage of file extension
+  - name: keywords
+    content: Naming
+tags:
+  - Naming
+  - Files
+---
 
-::: tip Key Point
-:bulb: How to name files and usage of file extension
-:::
+<Header/>
+
+---
 
 ## File extension
 

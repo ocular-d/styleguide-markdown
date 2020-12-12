@@ -1,8 +1,21 @@
-# Headings
+---
+title: Headings
+description: Always use short and understandable headings.
+meta:
+  - name: "og:description"
+    content: Headings
+  - name: keywords
+    content: Headings
+tags:
+  - Headings
+  - Header
+  - ATX
+  - Style
+---
 
-::: tip Key Point
-:bulb: Always use short and understandable headings.
-:::
+<Header/>
+
+---
 
 <!-- vale off -->
 

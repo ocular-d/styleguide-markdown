@@ -1,9 +1,18 @@
-# Emphasis
+---
+title: Emphasis
+description: How to use emphasis to highlight text.
+meta:
+  - name: "og:description"
+    content: Emphasis
+  - name: keywords
+    content: Emphasis
+tags:
+  - Emphasis
+---
 
-::: tip Key Point
-:bulb: How to use emphasis to highlight text
-:::
+<Header/>
 
+---
 ## Italic
 
 Use one (1) asterisk `*` marker to generate spans for italic formatted text.

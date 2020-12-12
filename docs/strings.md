@@ -1,9 +1,18 @@
-# Strings
+---
+title: Strings
+description: Use double quotes for strings.
+meta:
+  - name: "og:description"
+    content: Use double quotes for strings
+  - name: keywords
+    content: Strings
+tags:
+  - Strings
+---
 
-::: tip Key Point
-:bulb: Use double quotes `""` for strings.
-:::
+<Header/>
 
+---
 ## Quotes
 
 - **Double quotes can be used for inline HTML**.

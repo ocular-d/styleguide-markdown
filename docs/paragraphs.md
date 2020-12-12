@@ -1,10 +1,20 @@
-# Paragraphs
+---
+title: Paragraphs
+description: Never indent the content of paragraphs.
+meta:
+  - name: "og:description"
+    content: Never indent the content of paragraphs
+  - name: keywords
+    content: Paragraphs
+tags:
+  - Paragraphs
+---
+
+<Header/>
+
+---
 
 ## No Indentation
-
-::: tip Key Point
-:bulb: Never indent the content of paragraphs.
-:::
 
 > remark-lint: [no-paragraph-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-paragraph-content-indent "Link to remarkjs")
 
