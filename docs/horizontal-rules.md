@@ -55,7 +55,7 @@ A horizontal rule must consist of three (3) hyphens (`-`) without spaces.
 
 ## No prepended or appended content
 
-Make sure that there are no other prepended or appended characters (including whitespaces).
+Make sure that there are no other prepended or appended characters (including spaces).
 
 **:thumbsup: Correct** code for this rule:
 

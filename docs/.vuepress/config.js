@@ -41,7 +41,7 @@ module.exports = {
         'paragraphs',
         'strings',
         'tables',
-        'whitespace'
+        'space'
       ]
     }
   ]

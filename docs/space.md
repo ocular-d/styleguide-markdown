@@ -1,14 +1,14 @@
 ---
-title: Whitespace
-description: Guide about (white)spaces.
+title: Spaces
+description: Guide about empty spaces.
 meta:
   - name: "og:description"
-    content: Guide about (whitespaces)
+    content: Guide about empty spaces
   - name: keywords
-    content: Whitespace
+    content: Spaces
 tags:
-  - Whitespace
-  - Space
+  - Empty
+  - Spaces
 ---
 
 <Header/>
@@ -93,7 +93,7 @@ this rule can not be applied to flowing text.
 The author should be able to write sentences and text blocks without worrying about the line length.
 
 This guide advices to **avoid using a character limit per line for flowing text**,
-but try to use a maximum line length of 120 characters (including whitespaces) for all other document elements.
+but try to use a maximum line length of 120 characters (including spaces) for all other document elements.
 
 <!--lint disable-->
 
@@ -163,12 +163,12 @@ All human beings are born free and equal in dignity and rights. They are endowed
 
 ## Trailing
 
-Do not use trailing whitespace to generate a line break, use flowing text style or a blank line to create a new paragraph.
+Do not use trailing space to generate a line break, use flowing text style or a blank line to create a new paragraph.
 
 > remark-lint: [hard-break-spaces](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-hard-break-spaces "Link to remarkjs docs")
 
 ::: tip Note
-The `·` character represents a whitespace and the `¬` character represents a line break.
+The `·` character represents a space and the `¬` character represents a line break.
 :::
 
 **:thumbsup: Correct** code for this rule:

@@ -111,7 +111,7 @@ npx run docs:generate -- --template=plone --description="Plone is awesome" --ele
 Avoid to use dollar sign (`$`) in shell code.
 It improves the readability and prevents error when users copy and paste the code.
 
-To clarify the output of a command use for example a comment on the next line or optionally append it to the command on the same line, separated by a whitespace.
+To clarify the output of a command use for example a comment on the next line or optionally append it to the command on the same line, separated by a space.
 
 > remark-lint: [no-shell-dollars](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-shell-dollars "Link to remarkjs docs")
 

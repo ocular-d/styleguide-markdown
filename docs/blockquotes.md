@@ -16,7 +16,7 @@ tags:
 
 ## Indentation
 
-Always separate the marker `>` from the actual content using a single whitespace.
+Always separate the marker `>` from the actual content using a single space.
 
 > remark-lint: [blockquote-indentation](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-blockquote-indentation "Link to remarkjs docs" )
 

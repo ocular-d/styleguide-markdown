@@ -101,7 +101,7 @@ and [remark-lint-ordered-list-marker-value](https://github.com/remarkjs/remark-l
 
 ## No content before
 
-Make sure that there are no other characters (including whitespaces) in front of each list item.
+Make sure that there are no other characters (including spaces) in front of each list item.
 
 > remark-lint: [list-item-bullet-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-list-item-bullet-indent "Link to remarkjs docs")
 
@@ -124,7 +124,7 @@ Make sure that there are no other characters (including whitespaces) in front of
 **:thumbsdown: Incorrect** code for this rule:
 
 ::: tip Note
-The `·` character represents a whitespace character.
+The `·` character represents a space character.
 :::
 
 ```markdown
@@ -145,7 +145,7 @@ x1. One
 
 ## Continuous indentation
 
-Use two (2) whitespaces for continuous indentation of nested items and their content.
+Use two (2) spaces for continuous indentation of nested items and their content.
 
 <!--lint disable-->
 
