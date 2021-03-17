@@ -111,7 +111,7 @@ Sparkling and frozen...
 
 ## Content spacing
 
-Surround the content of headers and cells with at least one (1) single whitespace.
+Surround the content of headers and cells with at least one (1) single space.
 
 **:thumbsup: Correct** code for this rule:
 
@@ -137,7 +137,7 @@ Surround the content of headers and cells with at least one (1) single whitespac
 
 ## Header delimiter row spacing
 
-The delimiter row must only consist of cells whose only content are hyphens (`-`) surrounded by a single whitespace,
+The delimiter row must only consist of cells whose only content are hyphens (`-`) surrounded by a single space,
 and optionally, a leading or trailing colon (`:`), or both, to indicate left, right, or center alignment respectively.
 
 <!--lint disable-->
@@ -260,7 +260,7 @@ Never indent tables.
 **:thumbsdown: Incorrect** code for this rule:
 
 ::: tip Note
-The `·` character represents a whitespace.
+The `·` character represents a space.
 :::
 
 ```markdown

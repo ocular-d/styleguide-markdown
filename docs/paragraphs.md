@@ -26,7 +26,7 @@ Swimming is great.
 ```
 
 ::: tip Note
-The `·` character represents a whitespace.
+The `·` character represents a space.
 :::
 
 **:thumbsdown: Incorrect** code for this rule:

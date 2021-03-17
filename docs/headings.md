@@ -95,7 +95,7 @@ Sparkling and awesome...
 
 ## Content spacing
 
-Always separate the marker character `#` from the actual header content using a single whitespace.
+Always separate the marker character `#` from the actual header content using a single space.
 
 > remark-lint: [no-heading-content-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent "Link to remarkjs docs")
 
@@ -117,7 +117,7 @@ Always separate the marker character `#` from the actual header content using a 
 
 ## No Content Before
 
-Make sure that there are no other characters (including whitespaces) in front of headings.
+Make sure that there are no other characters (including spaces) in front of headings.
 
 > remark-lint: [no-heading-indent](https://github.com/remarkjs/remark-lint/tree/master/packages/remark-lint-no-heading-content-indent "Link to remarkjs docs")
 
@@ -128,7 +128,7 @@ Make sure that there are no other characters (including whitespaces) in front of
 ```
 
 ::: tip Note
-Note: The `·` character represents a whitespace character.
+Note: The `·` character represents a space character.
 :::
 
 **:thumbsdown: Incorrect** code for this rule:
