@@ -1,11 +1,11 @@
 ---
-title: Horizontal Rules
+title: Horizontal rules
 description: Horizontal rules can be used to separate content.
 meta:
   - name: "og:description"
-    content: Horizontal Rules
+    content: Horizontal rules
   - name: keywords
-    content: Horizontal Rules
+    content: Horizontal rules
 tags:
   - Horizontal
   - Sections
